@@ -1,0 +1,63 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "billingSummary": {
+    "credit": 12000,
+    "debt": 700
+  },
+  "billingCycles": [
+    {
+      "name": "Jaque",
+      "month": 12,
+      "year": 2020,
+      "id": 1,
+      "credits": [
+        {
+          "name": "Salário",
+          "value": 2000
+        }
+      ],
+      "debts": [
+        {
+          "name": "Presente",
+          "value": 100,
+          "status": "Pago"
+        }
+      ]
+    },
+    {
+      "credits": [
+        {
+          "name": "Salário",
+          "value": 3000
+        }
+      ],
+      "debts": [
+        {
+          "name": "Casa",
+          "value": 700,
+          "status": "Pago"
+        }
+      ],
+      "name": "Thomas",
+      "month": 12,
+      "year": 2020,
+      "id": 2
+    }
+  ]
+}
